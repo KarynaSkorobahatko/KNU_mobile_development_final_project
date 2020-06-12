@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008577"
+    android:orientation="vertical"
+    tools:context=".Lab4.Lab4Activity">
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="50dp"
+        android:onClick="onClick"
+        android:text="Upload database"
+        android:textColor="#00423C" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick"
+        android:text="Add New Item"
+        android:textColor="#00423C" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick"
+        android:text="Edit item"
+        android:textColor="#00423C" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick"
+        android:text="delete item"
+        android:textColor="#00423C" />
+
+    <Button
+        android:id="@+id/btnFind1"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick"
+        android:text="first query results"
+        android:textColor="#00423C" />
+
+    <Button
+        android:id="@+id/btnFind2"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:baselineAligned="false"
+        android:onClick="onClick"
+        android:text="second query results"
+        android:textColor="#00423C" />
+</LinearLayout>

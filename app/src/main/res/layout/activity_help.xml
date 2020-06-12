@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:orientation="vertical"
+    tools:context=".Count3Activity">
+
+    <Button
+        android:id="@+id/lab1"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:linksClickable="true"
+        android:text="lab 1 " />
+
+    <Button
+        android:id="@+id/lab2"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:text="lab 2" />
+
+    <Button
+        android:id="@+id/lab3"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:text="lab 3" />
+
+    <Button
+        android:id="@+id/lab4"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:text="lab4" />
+
+    <Button
+        android:id="@+id/lab5"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:text="lab5" />
+
+    <Button
+        android:id="@+id/lab6"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="10dp"
+        android:text="lab 6" />
+</LinearLayout>

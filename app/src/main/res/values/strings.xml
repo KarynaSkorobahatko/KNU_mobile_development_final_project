@@ -1,0 +1,57 @@
+<resources>
+    <!--Main-->
+    <string name="app_name">Karyna`s Project</string>
+    <string name="bth_info">About</string>
+    <string name="bth_lab1_main">Solve the equation (Lab 1)</string>
+    <string name="bth_lab2_main">Save the function in the file (Lab 2)</string>
+    <string name="bth_lab3_main">Graphing function (Lab 3)</string>
+    <string name="bth_lab4_main">Storing data in the database (Lab 4)</string>
+    <string name="bth_lab5_main">Working with the Address Book (Lab 5)</string>
+    <string name="bth_lab6_main">Geo-positioning and geocoding (Lab 6)</string>
+
+    <!--About-->
+    <string name="about_text">Info</string>
+
+    <!--Lab 1-->
+    <string name="argument_inp">""</string>
+    <string name="argument_x_label">"Input x:"</string>
+    <string name="result_text">"Result"</string>
+    <string name="btn_count_1">"Result"</string>
+
+    <!--Lab 2-->
+    <string name="argument_x1_label">"Input x1:"</string>
+    <string name="argument_x1_inp">""</string>
+
+    <string name="argument_x2_label">"Input x2:"</string>
+    <string name="argument_x2_inp">""</string>
+
+    <string name="argument_h_label">"Input step h:"</string>
+    <string name="argument_h_inp">""</string>
+
+    <string name="result2_text">""</string>
+
+    <string name="btn_save_c2">"Save"</string>
+    <string name="btn_load_c2">"Load"</string>
+
+    <!--Lab 3-->
+    <string name="argument_x1_label3">"Input x1:"</string>
+    <string name="argument_x1_inp3">""</string>
+
+    <string name="argument_x2_label3">"Input x2:"</string>
+    <string name="argument_x2_inp3">""</string>
+
+    <string name="argument_h_label3">"Input step h:"</string>
+    <string name="argument_h_inp3">""</string>
+
+    <string name="result3_text">"result"</string>
+
+    <string name="btn_save_c3">"Save"</string>
+    <string name="btn_load_c3">"Load"</string>
+    <string name="btn_draw_c3">"Draw"</string>
+
+    <string name="provider_gps">GPS</string>
+    <string name="provider_network">Network</string>
+    <string name="location_settings">Location settings</string>
+
+
+</resources>

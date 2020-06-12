@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008577"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bth_info"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="112dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="showInfo"
+        android:text="@string/bth_info"
+        android:textColor="#00423C"
+        android:textColorLink="#E91E63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bth_help_main"
+        app:layout_constraintTop_toBottomOf="@+id/bth_lab6_main" />
+
+    <Button
+        android:id="@+id/bth_count_main"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:onClick="lab1"
+        android:text="@string/bth_lab1_main"
+        android:textColor="#00423C"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/bth_count_main2"
+        app:layout_constraintEnd_toEndOf="@+id/bth_count_main2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/bth_count_main2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bth_count_main2"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:onClick="lab2"
+        android:text="@string/bth_lab2_main"
+        android:textColor="#00423C"
+        app:layout_constraintBottom_toTopOf="@+id/bth_count_main3"
+        app:layout_constraintEnd_toEndOf="@+id/bth_count_main3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/bth_count_main3"
+        app:layout_constraintTop_toBottomOf="@+id/bth_count_main" />
+
+    <Button
+        android:id="@+id/bth_count_main3"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:onClick="lab3"
+        android:text="@string/bth_lab3_main"
+        android:textColor="#00423C"
+        app:layout_constraintBottom_toTopOf="@+id/bth_lab4_main"
+        app:layout_constraintEnd_toEndOf="@+id/bth_lab4_main"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/bth_lab4_main"
+        app:layout_constraintTop_toBottomOf="@+id/bth_count_main2" />
+
+    <Button
+        android:id="@+id/bth_lab4_main"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:onClick="lab4"
+        android:text="@string/bth_lab4_main"
+        android:textColor="#00423C"
+        app:layout_constraintBottom_toTopOf="@+id/bth_lab5_main"
+        app:layout_constraintEnd_toEndOf="@+id/bth_lab5_main"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/bth_lab5_main"
+        app:layout_constraintTop_toBottomOf="@+id/bth_count_main3" />
+
+    <Button
+        android:id="@+id/bth_lab5_main"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:onClick="lab5"
+        android:text="@string/bth_lab5_main"
+        android:textColor="#00423C"
+        app:layout_constraintBottom_toTopOf="@+id/bth_lab6_main"
+        app:layout_constraintEnd_toEndOf="@+id/bth_lab6_main"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/bth_lab6_main"
+        app:layout_constraintTop_toBottomOf="@+id/bth_lab4_main" />
+
+    <Button
+        android:id="@+id/bth_lab6_main"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:onClick="lab6"
+        android:text="@string/bth_lab6_main"
+        android:textColor="#00423C"
+        app:layout_constraintBottom_toTopOf="@+id/bth_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bth_lab5_main" />
+
+    <Button
+        android:id="@+id/bth_help_main"
+        android:layout_width="105dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="help"
+        android:text="help"
+        android:textColor="#00423C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bth_info"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bth_lab6_main" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
